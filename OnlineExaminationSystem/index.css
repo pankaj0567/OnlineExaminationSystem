@@ -1,0 +1,48 @@
+﻿#main
+{
+    background-color:red;
+    width:1330px;
+    height:370px;
+    border:1px solid black;
+    
+    margin:0px auto;
+}
+#heading
+{
+    background-color:#00AFF4;
+    width:1328px;
+    height:60px;
+    padding-top:1px;
+    
+    
+    border-bottom:1px solid black;
+}
+    #heading h2
+    {
+        color:white;
+        line-height:10px;
+    }
+#content
+{
+       background-color:white;
+       
+       width:1328px;
+       height:308px;
+}
+#Backbtn
+{
+    background-color:red;
+    width:200px;
+    height:50px;
+    margin-left:130px;
+    margin-top:0px;
+}
+
+#WelMsg
+{
+    margin-top:0px;
+}
+#footer ul
+{
+    padding-bottom:1px;
+}

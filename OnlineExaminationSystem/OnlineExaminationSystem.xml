@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Images/banner-1.jpg</ImageUrl>
+    <NavigationUrl>http://google.com</NavigationUrl>
+    <AlternateText>Let's google</AlternateText>
+    <Impression>50</Impression>
+    <Keyword>ad1</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-1.jpg</ImageUrl>
+    <NavigationUrl>http://twitter.com</NavigationUrl>
+    <AlternateText>Let's twitter</AlternateText>
+    <Impression>20</Impression>
+    <Keyword>ad2</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-3.jpg</ImageUrl>
+    <NavigationUrl>http://facebook.com</NavigationUrl>
+    <AlternateText>Let's facebook</AlternateText>
+    <Impression>60</Impression>
+    <Keyword>ad3</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-4.jpg</ImageUrl>
+    <NavigationUrl>http://yahoo.com</NavigationUrl>
+    <AlternateText>Let's yahoo</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>ad4</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-5.jpg</ImageUrl>
+    <NavigationUrl>http://yahoo.com</NavigationUrl>
+    <AlternateText>Let's yahoo</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>ad5</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-6.jpg</ImageUrl>
+    <NavigationUrl>http://yahoo.com</NavigationUrl>
+    <AlternateText>Let's yahoo</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>ad6</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-7.jpg</ImageUrl>
+    <NavigationUrl>http://yahoo.com</NavigationUrl>
+    <AlternateText>Let's yahoo</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>ad7</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-8.jpg</ImageUrl>
+    <NavigationUrl>http://yahoo.com</NavigationUrl>
+    <AlternateText>Let's yahoo</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>ad8</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-9.jpg</ImageUrl>
+    <NavigationUrl>http://yahoo.com</NavigationUrl>
+    <AlternateText>Let's yahoo</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>ad9</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-10.jpg</ImageUrl>
+    <NavigationUrl>http://yahoo.com</NavigationUrl>
+    <AlternateText>Let's yahoo</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>ad10</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-11.jpg</ImageUrl>
+    <NavigationUrl>http://yahoo.com</NavigationUrl>
+    <AlternateText>Let's yahoo</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>ad11</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-12.png</ImageUrl>
+    <NavigationUrl>http://yahoo.com</NavigationUrl>
+    <AlternateText>Let's yahoo</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>ad12</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-13.jpg</ImageUrl>
+    <NavigationUrl>http://yahoo.com</NavigationUrl>
+    <AlternateText>Let's yahoo</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>ad13</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-14.jpg</ImageUrl>
+    <NavigationUrl>http://yahoo.com</NavigationUrl>
+    <AlternateText>Let's yahoo</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>ad14</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-15.jpg</ImageUrl>
+    <NavigationUrl>http://yahoo.com</NavigationUrl>
+    <AlternateText>Let's yahoo</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>ad15</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/banner-16.jpg</ImageUrl>
+    <NavigationUrl>http://yahoo.com</NavigationUrl>
+    <AlternateText>Let's yahoo</AlternateText>
+    <Impression>100</Impression>
+    <Keyword>ad16</Keyword>
+  </Ad>
+</Advertisements>

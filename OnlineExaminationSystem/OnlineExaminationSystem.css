@@ -1,0 +1,138 @@
+﻿*{
+    padding:0px;
+    margin:0px;
+}
+body {
+    
+    
+}
+    #container
+    {
+       /* background-color:wheat; */
+        width:1330px;
+        height:656px;
+        margin:0px auto;
+    }
+    #header
+    {
+      /* background-color:red; */
+        width:1330px;
+        height:150px;
+    }
+    #nav
+    {
+       /*    background-color:blue;*/
+        width:1330px;
+        height:90px;   
+    }
+
+
+    #nav ul
+    {
+        list-style:none;
+    }
+    #nav ul li
+    {
+        background-image:url(Images/back-2.png);
+        margin:2px;
+        width:128px;
+        height:35px;
+        line-height:35px;
+        text-align:center;
+        float:left;
+        border-radius:10px;
+       position:relative;
+      
+    }
+    #nav ul li a
+    {
+        text-decoration:none;
+        color:white;
+        display:block;
+        font-size:20px;
+        
+        
+    }
+    #nav ul li a:hover
+    {
+        background-image:url(Images/backhover-2.png);
+        border-radius:10px;
+
+    }
+        #nav ul ul
+        {   
+            
+            position:absolute;
+            display:none;
+       
+        }
+        #nav ul li:hover > ul
+        {
+                display:block;  
+                z-index:1;
+        }
+
+#content_area
+{
+    /*background-color:yellow;*/
+    background-image:url(Images/slider1.jpg);
+        width:1330px;
+        height:370px;
+
+}
+
+
+
+#footer
+{
+     
+        background-image:url(Images/backimg.jpg);
+        width:1330px;
+        height:45px;
+}
+
+
+
+
+
+     #footer ul
+    {
+        list-style:none;
+        opacity:0.5;
+       
+       padding-top:0px;
+        margin-left:106px;
+    }
+    #footer ul li
+    {
+        background-color:black;
+        width:160px;
+        height:45px;
+        line-height:45px;
+        text-align:center;
+        float:left;
+        
+      opacity:0.9;
+    }
+    #footer ul li a
+    {
+        text-decoration:none;
+        color:white;
+        display:block;
+        font-size:20px;
+        opacity:0.9;
+        
+    }
+    #footer ul li a:hover
+    {
+        background-color:blue;
+        opacity:0.9;
+        
+
+    }
+p
+{
+    text-align:justify;
+    margin-left:10px;
+    margin-right:10px;
+}

@@ -1,0 +1,78 @@
+﻿.exam 
+{
+	background-color:black;
+	opacity:0.5;
+	width:260px;
+	height:130px;
+	float:left;
+	text-decoration:none;
+	color:white;
+    margin:2px;
+    z-index:100;   
+}
+.exam .course
+{
+	display:block;
+	position:absolute;
+	width:260px;
+	height:130px;
+}
+.exam:hover
+{
+	background-color:blue;
+	display:block;
+	color:white;
+    opacity:0.8;
+}
+
+.course
+{
+    color: #FFFFFF;
+    display: block;
+    padding: 3px 0 0;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-top: 27px;
+    font-size: 25px;
+    font-family: OpenSans-Semibold;
+}
+#listexam
+{
+    background-color:#5189fb;
+    width:900px;
+    height:40px;
+    margin:0px auto;
+}
+
+.examitem
+{
+    background-color:green;
+    width: 260px;
+    height: 132px;
+    opacity:0.9;
+    position:absolute;
+    margin-left:2px;
+}
+.examitem a:hover
+{
+    color:#00AFF4;
+    
+   
+}
+ul
+{
+    list-style:none;
+   
+   
+}
+.courseitem
+{
+    text-decoration:none;
+    font-size:23px;
+    color:white;
+    margin-left:10px;
+}
+    
+

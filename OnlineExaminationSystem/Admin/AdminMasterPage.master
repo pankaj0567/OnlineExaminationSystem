@@ -1,0 +1,118 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="Admin_AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <style type="text/css">
+        .auto-style1
+        {
+            width: 1142px;
+        }
+        .auto-style3
+        {
+            width: 265px;
+        }
+        .auto-style4
+        {
+            width: 1144px;
+        }
+        .auto-style5
+        {
+            width: 1009px;
+        }
+    </style>
+    
+    <script >
+        $(function () {
+            
+            var img = [
+              '../Images/banner-1.jpg',
+         
+               '../Images/banner-2.jpg',
+              '../Images/banner-3.jpg',
+              '../Images/banner-4.jpg',
+              '../Images/banner-5.jpg',
+              '../Images/banner-6.jpg',
+              '../Images/banner-7.jpg',
+              '../Images/banner-8.jpg',
+              '../Images/banner-9.jpg',
+              '../Images/banner-10.jpg',
+              '../Images/banner-11.jpg',
+              '../Images/banner-12.png',
+              '../Images/banner-13.jpg',
+              '../Images/banner-14.jpg',
+
+            ];
+            var cnt = img.length;
+            var $ImageSlide = $('#fideinfadeout');
+            $ImageSlide.attr('src', img[cnt - 1]);
+            setInterval(slider, 3000);
+            function slider() {
+                $ImageSlide.fadeOut('slow', function () {
+                    $(this).attr('src', img[(img.length++) % cnt]).fadeIn('slow');
+
+                });
+            }
+        });
+
+    </script>
+</head>
+<body>
+    <div id="container" >
+        <form id="form1" runat="server">
+    <div id="header">
+    
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style4">
+                   <asp:Image ID="Image1" runat="server" Height="147px" 
+                        ImageUrl="~/Images/logo--1.png" Width="183px" />
+                   
+                </td>
+                         <td> <img id="fideinfadeout" src="../Images/banner-13.jpg"  style="Height:147px; Width:1135px" />  </td>
+                
+            </tr>
+        </table>
+    
+    </div>
+       
+        <div id="nav" style="height:60px; width: 1306px;">
+
+          
+      
+        
+            <table style="height:50px; width: 1319px;">
+                <tr>
+                    <td class="auto-style5"><h1>Welcome : <asp:Label ID="lblGuest" runat="server" Text="Guest"></asp:Label></h1>
+                    </td>
+            <td class="auto-style3" >     
+                    <ul><li><a href="AdminHomePage.aspx">Home</a> </li>
+               <li><a href="LogOut.aspx">LogOut</a> </li>
+                        </ul>
+                    
+                </td>    
+                </tr>
+            </table>
+                        
+        
+
+                    
+        </div>
+        
+    <div id="content_area">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+   
+    </form>
+    <div  ></div>
+    </div>
+
+</body>
+</html>
